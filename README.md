@@ -30,10 +30,16 @@ ollama run MODEL-NAME
 Ollama can also be run using a Python library. It makes us able to script the prompts, structure and store the responses in the format we want (JSON, CSV, RDF...).
 
 * [Short documentation](https://www.ollama.com/blog/python-javascript-libraries)
+* [Customized answers with Ollama](https://github.com/ollama/ollama/blob/main/docs/api.md)
 
 * Install Ollama Python
 ```bash
 pip install ollama
+```
+### RDFLIB
+To structure the outputs to build a knowledge graph
+```bash
+pip install rdflib
 ```
 
 ## Models in Ollama
