@@ -39,7 +39,7 @@ pip install ollama
 ## Models in Ollama
 | Model Name in Ollama | Description | Size |Number of parameters|Censored ?|
 |------------|-------------|---------|-------------|---------|
-| [llama3](https://www.ollama.com/library/llama3)| |4.7GB|8.03b||
+| [llama3](https://www.ollama.com/library/llama3):7b| |4.7GB|8.03b||
 | [mistral](https://www.ollama.com/library/mistral) | |4.1GB|7.25b||
 | [gemma](https://www.ollama.com/library/gemma):7b | |5GB|8.54b|Yes|
 
