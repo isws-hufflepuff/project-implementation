@@ -1,8 +1,5 @@
 # README
-This repository contains the code and materials of team Hufflepuff experiments for the ISWS 2024 Research project about <i>“Straight to COURT!”: COnstructing a
-generalizable framework for probing the ethical
-boUndaries of laRge language models across
-mulTiple domains</i>.
+This repository contains the code and resources of the ISWS 2024 Hufflepuff experiments described in the <i>“Straight to COURT!“: COnstructing a generalizable framework for probing the ethical boUndaries of laRge language models across mulTiple domains”</i> report.
 
 <p align="center"><img src="https://avatars.githubusercontent.com/u/172478664?s=200&v=4" style="width:60px;"></p>
 
