@@ -11,7 +11,7 @@ mulTiple domains</i>.
 - `/notebooks`: Contains the main application or site code.
   - `/notebooks/help`: Contains some help notebooks to use Ollama and to run Ollama with Google Colab (small LLMs only).
 - `/evaluation-protcol`: Contains sheets describing the tested prompts and returned answers for the different use cases (see the README file inside this folder).
-- `README.md`: This file provides an overview of the repository and describe the main installation steps and tools.
+- `README.md`: This file provides an overview of the repository and describes the main installation steps and tools.
 
 ## Installation
 ![Static Badge](https://img.shields.io/badge/Linux-Ubuntu_22.04.2_LTS-orange)
