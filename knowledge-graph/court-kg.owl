@@ -150,6 +150,22 @@
     
 
 
+    <!-- http://www.isws.org/hufflepuff/kg#E001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#E001">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Event"/>
+        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#L007"/>
+        <onto:hasCode>E001</onto:hasCode>
+        <onto:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">5/28/24</onto:hasEventDate>
+        <onto:hasName>Terrible news</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Terrible news</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.isws.org/hufflepuff/kg#F -->
 
     <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#F">
@@ -197,6 +213,26 @@
     
 
 
+    <!-- http://www.isws.org/hufflepuff/kg#ITA -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#ITA">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+        <onto:hasCode>ITA</onto:hasCode>
+        <onto:hasName>Italy</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Italy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#L007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#L007"/>
+    
+
+
     <!-- http://www.isws.org/hufflepuff/kg#M -->
 
     <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#M">
@@ -221,6 +257,54 @@
         <dc:creator>patrik</dc:creator>
         <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
         <rdfs:label>Megan Rapinoe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#PE001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#PE001">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Person"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#E001"/>
+        <onto:isRelatedTo rdf:resource="http://www.isws.org/hufflepuff/kg#PE002"/>
+        <onto:hasCode>PE001</onto:hasCode>
+        <onto:hasName>Renato Contesotto </onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Renato Contesotto </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#PE002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#PE002">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Person"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#E001"/>
+        <onto:isRelatedTo rdf:resource="http://www.isws.org/hufflepuff/kg#PE001"/>
+        <onto:hasCode>PE002</onto:hasCode>
+        <onto:hasName>Giada Zanola</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Giada Zanola</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#PE003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#PE003">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Person"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#E001"/>
+        <onto:isRelatedTo rdf:resource="http://www.isws.org/hufflepuff/kg#PE002"/>
+        <onto:hasCode>PE003</onto:hasCode>
+        <onto:hasName>Andrea Favero</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Andrea Favero</rdfs:label>
     </owl:NamedIndividual>
     
 
