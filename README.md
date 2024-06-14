@@ -9,6 +9,7 @@ This repository contains the code and resources of the ISWS 2024 Hufflepuff expe
   - `/notebooks/help`: Contains some tutorial notebooks to use Ollama and to run Ollama with Google Colab (small LLMs only).
 - `/evaluation-protocols`: Contains sheets describing the tested prompts and returned answers for the different use cases (see the README file inside this folder).
 - `/knowledge-graph` : Contains ontology and use cases implementation
+- `/report.zip` : Contains latex source code of the report
 - `README.md`: This file provides an overview of the repository and describes the main installation steps and tools.
 
 ## Installation
