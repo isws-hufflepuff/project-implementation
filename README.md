@@ -14,7 +14,7 @@ mulTiple domains</i>.
 - `README.md`: This file provides an overview of the repository and describe the main installation steps.
 
 ## Installation
-![Static Badge](https://img.shields.io/badge/Python-10.6-blue)
+![Static Badge](https://img.shields.io/badge/Linux-Ubuntu_22.04.2_LTS-orange)
 
 ### Ollama server
 *The following commands are executed in terminal*
@@ -43,6 +43,8 @@ ollama list
 ollama run MODEL-NAME
 ```
 ### Ollama Python
+![Static Badge](https://img.shields.io/badge/Python-10.6-blue)
+
 Ollama can also be run using a Python library. It makes us able to script the prompts, structure and store the responses in the format we want (JSON, CSV, RDF...).
 
 * [Short documentation](https://www.ollama.com/blog/python-javascript-libraries)
