@@ -4,13 +4,13 @@ generalizable framework for probing the ethical
 boUndaries of laRge language models across
 mulTiple domains</i>.
 
-<p align="center"><img src="https://avatars.githubusercontent.com/u/172478664?s=200&v=4" style="width:50px;"></p>
+<p align="center"><img src="https://avatars.githubusercontent.com/u/172478664?s=200&v=4" style="width:60px;"></p>
 
 ## Repository structure
 - `/implemented-ex-material/copyright`: Data (prompts and sucessive steps outputs) used and provide for the semi-automatic implementation of the project, focus on the copyright use case.
-- `/notebooks`: Contains the main application or site code.
-  - `/notebooks/help`: Contains some help notebooks to use Ollama and to run Ollama with Google Colab (small LLMs only).
-- `/evaluation-protcol`: Contains sheets describing the tested prompts and returned answers for the different use cases (see the README file inside this folder).
+- `/notebooks`: Contains the main code to run LLMs.
+  - `/notebooks/help`: Contains some tutorial notebooks to use Ollama and to run Ollama with Google Colab (small LLMs only).
+- `/evaluation-protocols`: Contains sheets describing the tested prompts and returned answers for the different use cases (see the README file inside this folder).
 - `README.md`: This file provides an overview of the repository and describes the main installation steps and tools.
 
 ## Installation
