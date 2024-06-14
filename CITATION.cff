@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: Straight to COURT! COnstructing a generalizable framework for probing the ethical boUndaries of laRge language models across mulTiple domains.
+title: "Straight to COURT! COnstructing a generalizable framework for probing the ethical boUndaries of laRge language models across mulTiple domains."
 authors:
   - family-names: "Ondraszek"
     given-names: "Sarah Rebecca"
@@ -16,7 +16,6 @@ authors:
     given-names: "Sabrina"
 version: 1.0.0
 date-released: 2024-06-14
-type: article
 keywords:
   - LLMs
   - Knowledge Graphs
