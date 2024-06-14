@@ -4,7 +4,7 @@ generalizable framework for probing the ethical
 boUndaries of laRge language models across
 mulTiple domains</i>.
 
-<center><img src="https://avatars.githubusercontent.com/u/172478664?s=200&v=4" style="width:50px;"></center>
+<p align="center"><img src="https://avatars.githubusercontent.com/u/172478664?s=200&v=4" style="width:50px;"></p>
 
 ## Repository structure
 - `/implemented-ex-material/copyright`: Data (prompts and sucessive outputs) used and provide by the implementation of the project, focus on the copyright use case.
