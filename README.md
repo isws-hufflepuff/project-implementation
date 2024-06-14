@@ -7,11 +7,11 @@ mulTiple domains</i>.
 <p align="center"><img src="https://avatars.githubusercontent.com/u/172478664?s=200&v=4" style="width:50px;"></p>
 
 ## Repository structure
-- `/implemented-ex-material/copyright`: Data (prompts and sucessive outputs) used and provide by the implementation of the project, focus on the copyright use case.
+- `/implemented-ex-material/copyright`: Data (prompts and sucessive steps outputs) used and provide for the semi-automatic implementation of the project, focus on the copyright use case.
 - `/notebooks`: Contains the main application or site code.
-  - `/notebooks/help`: Contains some help notebook to use Ollama to run Ollama sith Google Colab
-- `/tested-prompts`: Contains sheets describing the tested prompts for the different use cases.
-- `README.md`: This file provides an overview of the repository and describe the main installation steps.
+  - `/notebooks/help`: Contains some help notebooks to use Ollama and to run Ollama with Google Colab (small LLMs only).
+- `/tested-prompts`: Contains sheets describing the tested prompts for the different use cases (see the README file inside this folder).
+- `README.md`: This file provides an overview of the repository and describe the main installation steps and tools.
 
 ## Installation
 ![Static Badge](https://img.shields.io/badge/Linux-Ubuntu_22.04.2_LTS-orange)
@@ -24,7 +24,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```
 * If you are under a proxy, set environnement variables :
     - set HTTP_PROXY and http_proxy 
-    - set HTTPS_PROXY
+    - set HTTPS_PROXY and https_proxy
 
 * To run Ollama (default HOST is 127.0.0.1:11434)
 ```bash
@@ -45,7 +45,7 @@ ollama run MODEL-NAME
 ### Ollama Python
 ![Static Badge](https://img.shields.io/badge/Python-10.6-blue)
 
-Ollama can also be run using a Python library. It makes us able to script the prompts, structure and store the responses in the format we want (JSON, CSV, RDF...).
+Ollama can also be run using a Python library. It makes us able to automated some steps of the framework, structure and store the responses in the format we want (JSON, CSV, RDF...).
 
 * [Short documentation](https://www.ollama.com/blog/python-javascript-libraries)
 * [Customized answers with Ollama](https://github.com/ollama/ollama/blob/main/docs/api.md)
@@ -56,7 +56,8 @@ pip install ollama
 ```
 
 ## Models in Ollama
-<i>Only Llama3 model has been tested in the automated implementation of our work.</i>
+<i>Only Llama3:7B model has been tested in the automated implementation of our work.</i>
+
 | Model Name in Ollama | Developped by | Size |Number of parameters|Censored ?|
 |------------|-------------|---------|-------------|---------|
 | [llama3](https://www.ollama.com/library/llama3):7b|Meta|4.7GB|8.03b|Yes & No|
@@ -65,4 +66,4 @@ pip install ollama
 
 ## Running notebooks
 
-Note : the models we choose can been run on Google Colab using T4 GPU environnement with a free but limited account (limited time but can be usefull to make tests).
+Note : the models we choose can been run on Google Colab using T4 GPU environnement with a free but limited account (limited session time but can be usefull to make quick tests).
