@@ -64,7 +64,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#C002">
         <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
-        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#USA"/>
+        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#AUS"/>
         <onto:ofSport rdf:resource="http://www.isws.org/hufflepuff/kg#S002"/>
         <onto:hasCode>C002</onto:hasCode>
         <onto:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10/1/22</onto:hasEventDate>
@@ -560,12 +560,6 @@
         <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
         <rdfs:label>United Kingdom</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.isws.org/hufflepuff/kg#USA -->
-
-    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#USA"/>
 </rdf:RDF>
 
 
