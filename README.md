@@ -4,6 +4,8 @@ generalizable framework for probing the ethical
 boUndaries of laRge language models across
 mulTiple domains</i>.
 
+<center><img src="https://avatars.githubusercontent.com/u/172478664?s=200&v=4" style="width:50px;"></center>
+
 ## Repository structure
 - `/implemented-ex-material/copyright`: Data (prompts and sucessive outputs) used and provide by the implementation of the project, focus on the copyright use case.
 - `/notebooks`: Contains the main application or site code.
@@ -52,6 +54,7 @@ pip install ollama
 ```
 
 ## Models in Ollama
+<i>Only Llama3 model has been tested in the automated implementation of our work.</i>
 | Model Name in Ollama | Developped by | Size |Number of parameters|Censored ?|
 |------------|-------------|---------|-------------|---------|
 | [llama3](https://www.ollama.com/library/llama3):7b|Meta|4.7GB|8.03b|Yes & No|
