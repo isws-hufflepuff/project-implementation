@@ -1,4 +1,9 @@
 # README
+This repository contains the code and materials of team Hufflepuff experiments for the ISWS 2024 Research project about <i>“Straight to COURT!”: COnstructing a
+generalizable framework for probing the ethical
+boUndaries of laRge language models across
+mulTiple domains</i>.
+
 ## Repository structure
 - `/implemented-ex-material`: Data (prompts and sucessive outputs) used and provide by the implementation of the project, focus on the copyright use case.
 - `/notebooks`: Contains the main application or site code.
@@ -7,6 +12,8 @@
 - `README.md`: This file provides an overview of the repository and describe the main installation steps.
 
 ## Installation
+![Static Badge](https://img.shields.io/badge/Python-10.6-blue)
+
 ### Ollama server
 *The following commands are executed in terminal*
 * Install Ollama (choose the relevant OS). For Linux :
@@ -42,11 +49,6 @@ Ollama can also be run using a Python library. It makes us able to script the pr
 * Install Ollama Python
 ```bash
 pip install ollama
-```
-### RDFLIB
-To structure the outputs to build a knowledge graph
-```bash
-pip install rdflib
 ```
 
 ## Models in Ollama
