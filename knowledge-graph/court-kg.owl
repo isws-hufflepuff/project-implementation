@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.isws.org/hufflepuff/kg#"
+     xml:base="http://www.isws.org/hufflepuff/kg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:onto="http://www.isws.org/hufflepuff/ontology/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:onto-ind="http://www.isws.org/hufflepuff/kg#">
+    <owl:Ontology rdf:about="http://www.isws.org/hufflepuff/kg">
+        <owl:imports rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>COURT Knowledge graph</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#AUS -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#AUS">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+        <onto:hasCode>AUS</onto:hasCode>
+        <onto:hasName>Australia</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Australia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#C001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#C001">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#FR"/>
+        <onto:ofSport rdf:resource="http://www.isws.org/hufflepuff/kg#S001"/>
+        <onto:hasCode>C001</onto:hasCode>
+        <onto:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">7/7/19</onto:hasEventDate>
+        <onto:hasName>World football championship finals</onto:hasName>
+        <onto:hasOfficialName>FIFA Women&apos;s World Cup finals</onto:hasOfficialName>
+        <onto:hasScore>2 : 0</onto:hasScore>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>World football championship finals</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#C002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#C002">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#USA"/>
+        <onto:ofSport rdf:resource="http://www.isws.org/hufflepuff/kg#S002"/>
+        <onto:hasCode>C002</onto:hasCode>
+        <onto:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10/1/22</onto:hasEventDate>
+        <onto:hasName>World basketball championship finals</onto:hasName>
+        <onto:hasOfficialName>FIBA Women&apos;s Basketball World Cup</onto:hasOfficialName>
+        <onto:hasScore>83 : 61</onto:hasScore>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>World basketball championship finals</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#C003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#C003">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#UK"/>
+        <onto:ofSport rdf:resource="http://www.isws.org/hufflepuff/kg#S003"/>
+        <onto:hasCode>C003</onto:hasCode>
+        <onto:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">7/10/21</onto:hasEventDate>
+        <onto:hasName>Wimbledon championship finals</onto:hasName>
+        <onto:hasOfficialName>Women&apos;s Singles Final at Wimbledon Championships</onto:hasOfficialName>
+        <onto:hasScore>2 : 1</onto:hasScore>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Wimbledon championship finals</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#C004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#C004">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#HOL"/>
+        <onto:ofSport rdf:resource="http://www.isws.org/hufflepuff/kg#S004"/>
+        <onto:hasCode>C004</onto:hasCode>
+        <onto:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10/15/22</onto:hasEventDate>
+        <onto:hasName>World volleyball championship</onto:hasName>
+        <onto:hasOfficialName>FIVB Volleyball Women&apos;s World Championship</onto:hasOfficialName>
+        <onto:hasScore>3 : 0</onto:hasScore>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>World volleyball championship</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#C005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#C005">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <onto:hasLocation rdf:resource="http://www.isws.org/hufflepuff/kg#DEN"/>
+        <onto:ofSport rdf:resource="http://www.isws.org/hufflepuff/kg#S005"/>
+        <onto:hasCode>C005</onto:hasCode>
+        <onto:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">9/4/22</onto:hasEventDate>
+        <onto:hasName>World ice hockey championship</onto:hasName>
+        <onto:hasOfficialName>IIHF Women&apos;s World Championship</onto:hasOfficialName>
+        <onto:hasScore>2 : 1</onto:hasScore>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>World ice hockey championship</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#DEN -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#DEN">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+        <onto:hasCode>DEN</onto:hasCode>
+        <onto:hasName>Denmark</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Denmark</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#F -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#F">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Gender"/>
+        <onto:hasCode>F</onto:hasCode>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Female</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#FR -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#FR"/>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#FRA -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#FRA">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+        <onto:hasCode>FRA</onto:hasCode>
+        <onto:hasName>France</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#HOL -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#HOL">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+        <onto:hasCode>HOL</onto:hasCode>
+        <onto:hasName>Netherlands</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Netherlands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#M -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#M">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Gender"/>
+        <onto:hasCode>M</onto:hasCode>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Male</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#P001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#P001">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Player"/>
+        <onto:isMemberOf rdf:resource="http://www.isws.org/hufflepuff/kg#T001"/>
+        <onto:hasCode>P001</onto:hasCode>
+        <onto:hasName>Megan Rapinoe</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Megan Rapinoe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#S001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#S001">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Sport"/>
+        <onto:hasCode>S001</onto:hasCode>
+        <onto:hasName>Football</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Football</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#S002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#S002">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Sport"/>
+        <onto:hasCode>S002</onto:hasCode>
+        <onto:hasName>Basketball</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Basketball</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#S003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#S003">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Sport"/>
+        <onto:hasCode>S003</onto:hasCode>
+        <onto:hasName>Tennis</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Tennis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#S004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#S004">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Sport"/>
+        <onto:hasCode>S004</onto:hasCode>
+        <onto:hasName>Volleyball</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Volleyball</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#S005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#S005">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Sport"/>
+        <onto:hasCode>S005</onto:hasCode>
+        <onto:hasName>Ice-hockey</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>Ice-hockey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T001">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C001"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S001"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T001</onto:hasCode>
+        <onto:hasName>USA</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>USA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T002">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C001"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S001"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T002</onto:hasCode>
+        <onto:hasName>HOL</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>HOL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T003">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C002"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S002"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T003</onto:hasCode>
+        <onto:hasName>USA</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>USA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T004">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C002"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S002"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T004</onto:hasCode>
+        <onto:hasName>CHI</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>CHI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T005">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C003"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S003"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T005</onto:hasCode>
+        <onto:hasName>AUS</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>AUS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T006">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C003"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S003"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T006</onto:hasCode>
+        <onto:hasName>CZE</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>CZE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T007">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C004"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S004"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T007</onto:hasCode>
+        <onto:hasName>SER</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>SER</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T008">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C004"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S004"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T008</onto:hasCode>
+        <onto:hasName>BRA</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>BRA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T009">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C005"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S005"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T009</onto:hasCode>
+        <onto:hasName>CAN</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>CAN</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#T010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#T010">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <onto:attendedEvent rdf:resource="http://www.isws.org/hufflepuff/kg#C005"/>
+        <onto:doesSport rdf:resource="http://www.isws.org/hufflepuff/kg#S005"/>
+        <onto:hasGender rdf:resource="http://www.isws.org/hufflepuff/kg#F"/>
+        <onto:hasCode>T010</onto:hasCode>
+        <onto:hasName>USA</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>USA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#UK -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#UK">
+        <rdf:type rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+        <onto:hasCode>UK</onto:hasCode>
+        <onto:hasName>United Kingdom</onto:hasName>
+        <dc:created>2024-06-14T15:40:40</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy>http://www.isws.org/hufflepuff/kg</rdfs:isDefinedBy>
+        <rdfs:label>United Kingdom</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/kg#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.isws.org/hufflepuff/kg#USA"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

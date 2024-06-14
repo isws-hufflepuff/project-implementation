@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.isws.org/hufflepuff/ontology#"
+     xml:base="http://www.isws.org/hufflepuff/ontology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:onto="http://www.isws.org/hufflepuff/ontology/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:onto-ind="http://www.isws.org/hufflepuff/ontology#">
+    <owl:Ontology rdf:about="http://www.isws.org/hufflepuff/ontology">
+        <rdfs:label>COURT ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/attendedEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.isws.org/hufflepuff/ontology/attendedEvent">
+        <rdfs:domain rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <rdfs:range rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-14T14:17:08Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>attended event</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/doesSport -->
+
+    <owl:ObjectProperty rdf:about="http://www.isws.org/hufflepuff/ontology/doesSport">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-14T14:24:32Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:label>does sport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasCoach -->
+
+    <owl:ObjectProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasCoach">
+        <rdfs:domain rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <rdfs:range rdf:resource="http://www.isws.org/hufflepuff/ontology/Coach"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:34:32Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>has coach</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasGender -->
+
+    <owl:ObjectProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasGender">
+        <rdfs:domain rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <rdfs:range rdf:resource="http://www.isws.org/hufflepuff/ontology/Gender"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:21:26Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>has gender</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasLocation">
+        <rdfs:domain rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <rdfs:range rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T21:11:45Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>has location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.isws.org/hufflepuff/ontology/isMemberOf">
+        <rdfs:domain rdf:resource="http://www.isws.org/hufflepuff/ontology/Player"/>
+        <rdfs:range rdf:resource="http://www.isws.org/hufflepuff/ontology/Team"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:34:32Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>is member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/ofSport -->
+
+    <owl:ObjectProperty rdf:about="http://www.isws.org/hufflepuff/ontology/ofSport">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-14T14:25:09Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:label>of sport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasStringValue"/>
+        <rdfs:domain rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T21:15:35Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>has code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:19:52Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:isDefinedBy>has date</rdfs:isDefinedBy>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasEventDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasEventDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:19:52Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:isDefinedBy>has event date</rdfs:isDefinedBy>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasPublicationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasPublicationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:19:52Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:isDefinedBy>has publication date</rdfs:isDefinedBy>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasStringValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T21:14:08Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:comment>has name</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasEmail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasEmail">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasStringValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T21:14:08Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:comment>has email</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasOccupation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasOccupation">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasStringValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T21:14:08Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:comment>has occupation</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasOfficialName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasOfficialName">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasName"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-13T13:00:09Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>has official name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasScore">
+        <rdfs:subPropertyOf rdf:resource="http://www.isws.org/hufflepuff/ontology/hasStringValue"/>
+        <rdfs:domain rdf:resource="http://www.isws.org/hufflepuff/ontology/Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:33:31Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:label rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>has score</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/hasStringValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.isws.org/hufflepuff/ontology/hasStringValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:47:43Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>has string value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Book -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Book">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:16:28Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Book</rdfs:label>
+    </owl:Class>
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/FullText -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/FullText">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:16:28Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Full text</rdfs:label>
+    </owl:Class>
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Paragraph -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/FullText">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:16:28Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Paragraph</rdfs:label>
+    </owl:Class>
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Event -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Event">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:16:28Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Author -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Author">
+        <rdfs:subClassOf rdf:resource="http://www.isws.org/hufflepuff/ontology/Person"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:16:28Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Author</rdfs:label>
+    </owl:Class>
+
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Coach -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Coach">
+        <rdfs:subClassOf rdf:resource="http://www.isws.org/hufflepuff/ontology/TeamMember"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:16:28Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Coach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Competition -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Competition">
+        <rdfs:subClassOf rdf:resource="http://www.isws.org/hufflepuff/ontology/Event"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.isws.org/hufflepuff/ontology/hasLocation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.isws.org/hufflepuff/ontology/Location"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.isws.org/hufflepuff/ontology/ofSport"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.isws.org/hufflepuff/ontology/Sport"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:05:34Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Gender -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Gender">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:17:03Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Location -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Location">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:43:27Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Person -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Person">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-14T15:11:21Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Player -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Player">
+        <rdfs:subClassOf rdf:resource="http://www.isws.org/hufflepuff/ontology/TeamMember"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:16:04Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Player</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Sport -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Sport">
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:13:47Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Sport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/Team -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/Team">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.isws.org/hufflepuff/ontology/doesSport"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.isws.org/hufflepuff/ontology/Sport"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.isws.org/hufflepuff/ontology/hasCoach"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.isws.org/hufflepuff/ontology/Coach"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.isws.org/hufflepuff/ontology/hasGender"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.isws.org/hufflepuff/ontology/Gender"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:14:26Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.isws.org/hufflepuff/ontology/TeamMember -->
+
+    <owl:Class rdf:about="http://www.isws.org/hufflepuff/ontology/TeamMember">
+        <rdfs:subClassOf rdf:resource="http://www.isws.org/hufflepuff/ontology/Person"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-12T20:15:09Z</dc:created>
+        <dc:creator>patrik</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://www.isws.org/hufflepuff/ontology"/>
+        <rdfs:label>Team member</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
