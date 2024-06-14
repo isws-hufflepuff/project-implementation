@@ -10,6 +10,7 @@ This repository contains the code and resources of the ISWS 2024 Hufflepuff expe
 - `/evaluation-protocols`: Contains sheets describing the tested prompts and returned answers for the different use cases (see the README file inside this folder).
 - `/knowledge-graph` : Contains ontology and use cases implementation
 - `/report.zip` : Contains latex source code of the report
+- `ISWS2024_Hufflepuff.pdf` : Report
 - `README.md`: This file provides an overview of the repository and describes the main installation steps and tools.
 
 ## Installation
