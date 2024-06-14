@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: “Straight to COURT!”: COnstructing a generalizable framework for probing the ethical boUndaries of laRge language models across mulTiple domains.
+authors:
+  - family-names: "Ondraszek"
+    given-names: "Sarah Rebecca"
+  - family-names: "Tual"
+    given-names: "Solenn"
+  - family-names: "Contesotto"
+    given-names: "Ilaria"
+  - family-names: "Cuccarini"
+    given-names: "Marco"
+  - family-names: "Kompuš"
+    given-names: "Patrik"
+  - family-names: "Kirrane"
+    given-names: "Sabrina"
+version: 1.0.0
+date-released: 2024-06-14
+type: article
+keywords:
+  - LLMs
+  - Knowledge Graphs
+  - Privacy
+  - Copyright
+  - Biais
+
+# If the article was published in a conference, you can use the 'cited-as' field as follows:
+cited-as: "Ondraszek, S. R. et al. (2024). “Straight to COURT!”: COnstructing a generalizable framework for probing the ethical boUndaries of laRge language models across mulTiple domains. International Semantic Web Research Summer School (ISWS), June 9-15, Bertinoro, Italy."
