@@ -1,4 +1,5 @@
-# Tested prompts
+# Evaluation protocol
+The following files consist in the evaluation protocol followed during our experiments.
 Note : Those files are also all available in the Google Drive folder of the team.
 * [Copyright](https://docs.google.com/spreadsheets/d/1V5YcfJwg8OBmzw9NPKqIH2KeInCYSSyeSKJpE-mPe2M/edit?usp=sharing)
 * [Privacy](https://docs.google.com/spreadsheets/d/1h5TVryst9ab8mDL7ROGnWvV4bxpsK6BjZ-OUMwXkuHk/edit?gid=0#gid=0)

@@ -10,7 +10,7 @@ mulTiple domains</i>.
 - `/implemented-ex-material/copyright`: Data (prompts and sucessive steps outputs) used and provide for the semi-automatic implementation of the project, focus on the copyright use case.
 - `/notebooks`: Contains the main application or site code.
   - `/notebooks/help`: Contains some help notebooks to use Ollama and to run Ollama with Google Colab (small LLMs only).
-- `/tested-prompts`: Contains sheets describing the tested prompts for the different use cases (see the README file inside this folder).
+- `/evaluation-protcol`: Contains sheets describing the tested prompts and returned answers for the different use cases (see the README file inside this folder).
 - `README.md`: This file provides an overview of the repository and describe the main installation steps and tools.
 
 ## Installation
