@@ -1,4 +1,5 @@
 # Tested prompts
+Note : Those files are also all available in the Google Drive folder of the team.
 
 ## Using LLM user interface
 ### Biais
