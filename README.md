@@ -3,7 +3,7 @@
 - `/implemented-ex-material`: Data (prompts and sucessive outputs) used and provide by the implementation of the project, focus on the copyright use case.
   - `/notebooks`: Contains the main application or site code.
   - `/notebooks/help`: Contains some help notebook to use Ollama to run Ollama sith Google Colab
-- `/prompts`: Contains sheets describing the tested prompts for the different use cases.
+- `/tested-prompts`: Contains sheets describing the tested prompts for the different use cases.
 - `README.md`: This file provides an overview of the repository and describe the main installation steps.
 
 ## Installation
