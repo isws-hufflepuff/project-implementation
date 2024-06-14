@@ -59,5 +59,3 @@ pip install rdflib
 ## Running notebooks
 
 Note : the models we choose can been run on Google Colab using T4 GPU environnement with a free but limited account (limited time but can be usefull to make tests).
-
-## Metrics
