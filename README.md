@@ -5,7 +5,7 @@ boUndaries of laRge language models across
 mulTiple domains</i>.
 
 ## Repository structure
-- `/implemented-ex-material`: Data (prompts and sucessive outputs) used and provide by the implementation of the project, focus on the copyright use case.
+- `/implemented-ex-material/copyright`: Data (prompts and sucessive outputs) used and provide by the implementation of the project, focus on the copyright use case.
 - `/notebooks`: Contains the main application or site code.
   - `/notebooks/help`: Contains some help notebook to use Ollama to run Ollama sith Google Colab
 - `/tested-prompts`: Contains sheets describing the tested prompts for the different use cases.
