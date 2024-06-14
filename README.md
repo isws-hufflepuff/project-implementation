@@ -38,7 +38,7 @@ ollama pull MODEL-NAME
 ```bash
 ollama list
 ```
-* To run a model in terminal (see Ollama Pyhton to run a model in a Python script)
+* To run a model in terminal (see Ollama Python to run a model in a Python script)
 ```bash
 ollama run MODEL-NAME
 ```
